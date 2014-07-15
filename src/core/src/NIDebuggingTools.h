@@ -1,5 +1,5 @@
 //
-// Copyright 2011 Jeff Verkoeyen
+// Copyright 2011-2014 NimbusKit
 //
 // Forked from Three20 June 10, 2011 - Copyright 2009-2011 Facebook
 //
@@ -79,9 +79,9 @@
  *  NIMaxLogLevel = NILOGLEVEL_INFO;
  * @endcode
  *
- *      @ingroup NimbusCore
- *      @defgroup Debugging-Tools Debugging Tools
- *      @{
+ * @ingroup NimbusCore
+ * @defgroup Debugging-Tools Debugging Tools
+ * @{
  */
 
 #if defined(DEBUG) || defined(NI_DEBUG)
@@ -191,6 +191,4 @@ xx, ##__VA_ARGS__)
  */
 #define NIDINFO(xx, ...)  NIDCONDITIONLOG((NILOGLEVEL_INFO <= NIMaxLogLevel), xx, ##__VA_ARGS__)
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
 /**@}*/// End of Debugging Tools //////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////
